@@ -62,7 +62,7 @@ or using Docker:
         "args": [
           "run",
           "--rm",
-          "-it",
+          "-i",
           "-e",
           "SERVER_ADDRESS",
           "jrderuiter/mcp-stdio-adapter",
