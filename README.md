@@ -2,6 +2,16 @@
 
 Simple proxy that allows you to expose a remote MCP servers (streamable HTTP) as a local stdio MCP server. Useful for using remote MCP servers in applications that only support stdio (such as Zed).
 
+```mermaid
+graph LR
+    remote(Remote server)
+	adapter[This adapter]
+	editor(Local editor)
+
+	remote -->|HTTP| adapter
+    adapter -->|stdio| editor
+```
+
 ## Usage
 
 ### From the command line
