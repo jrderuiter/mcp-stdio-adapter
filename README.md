@@ -8,8 +8,8 @@ graph LR
 	adapter[This adapter]
 	editor(Local editor)
 
-	remote -->|HTTP| adapter
-    adapter -->|stdio| editor
+  editor -->|stdio| adapter
+	adapter -->|HTTP| remote
 ```
 
 ## Usage
