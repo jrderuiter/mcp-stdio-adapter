@@ -1,0 +1,13 @@
+[project]
+name = "mcp-http-to-sdtio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Julian de Ruiter", email = "307739+jrderuiter@users.noreply.github.com" },
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.7.0",
+    "pydantic-settings>=2.9.1",
+]
