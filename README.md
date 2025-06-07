@@ -1,6 +1,6 @@
 # MCP stdio adapter
 
-Simple proxy that allows you to expose a remote MCP servers (streamable HTTP) as a local stdio MCP server. Useful for using remote MCP servers in applications that only support stdio (such as Zed).
+Adapter that allows you to expose a remote MCP servers (streamable HTTP) as a local stdio MCP server. Useful for using remote MCP servers in applications that only support stdio (such as Zed).
 
 ```mermaid
 graph LR
@@ -73,3 +73,14 @@ or using Docker:
       }
     }
 ```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## Author
+
+Julian de Ruiter
