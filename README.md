@@ -1,4 +1,4 @@
-# MCP HTTP-to-STDIO
+# MCP HTTP-to-STDIO adapter
 
 Simple proxy that allows you to expose a remote MCP server exposed over streamable HTTP as a local stdio MCP server. Useful for using remote MCP servers in applications that only support stdio (such as Zed).
 
