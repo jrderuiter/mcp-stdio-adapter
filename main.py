@@ -12,5 +12,5 @@ settings = Settings()  # type: ignore
 
 mcp = FastMCP.as_proxy(
     StreamableHttpTransport(str(settings.server_address) + "mcp/"),
-    name="stdio-proxy",
+    name="http-proxy",
 )
